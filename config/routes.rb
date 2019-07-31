@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'root#top'
+  get 'root/top'
   # get 'books/show'
   # get 'books/index'
   # get 'books/new'
