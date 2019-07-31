@@ -11,6 +11,6 @@
 <div class="link">
     <%= link_to "edit", edit_book_path(@book) %>
     <%= link_to "destroy", book_path(@book), method: :delete,
-    "data-confirm" => "本当に削除しますか？" %>
+    data:{confirm: 'Are you sure?'} %>
     <%= link_to "back", books_path %>
 </div>
